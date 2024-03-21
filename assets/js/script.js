@@ -141,3 +141,8 @@ const initAccordion = function (currentAccordion) {
 }
 
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
+
+/*
+*footer year
+*/
+year=document.querySelector("#year").innerHTML = new Date().getFullYear();
