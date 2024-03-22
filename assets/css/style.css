@@ -305,7 +305,7 @@ body.nav-active { overflow: hidden; }
   position: fixed;
   top: 0;
   left: -300px;
-  background-color: var(--raisin-black);
+  background: var(--charcoal);
   color: var(--white);
   max-width: 300px;
   width: 100%;
