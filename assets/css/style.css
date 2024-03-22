@@ -12,12 +12,7 @@
   /**
    * colors
    */
-   color: hsl(182, 100%, 50%);
-   color: hsl(182, 100%, 37.1%);
-   color: ;
-   color: ;
-   color: hsl(323, 93.7%, 49.4%);
-   color: hsl(323, 93.5%, 36.5%);
+   /* color: hsl(182, 100%, 50%); */
 
    --violet-blue-crayola: hsl(323, 94%, 62%);
    --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
@@ -948,11 +943,10 @@ body.nav-active { overflow: hidden; }
 
   .navbar-link:is(:hover, :focus-visible) { opacity: 0.7; }
 
-  .header.active .navbar-link { color: var(--charcoal); }
+  .header.active .navbar-link { color: var(--black-coral); }
 
   .header.active .navbar-link:is(:hover, :focus-visible) {
-    opacity: 1;
-    color: var(--violet-blue-crayola);
+    opacity: .6;
   }
 
   .header .btn { margin-inline-start: 0; }
