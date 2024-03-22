@@ -490,7 +490,12 @@ body.nav-active { overflow: hidden; }
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
 }
-
+.service-card:hover{
+  .btn-text{
+    gap: 6px;
+    letter-spacing: 1px;
+  }
+}
 .service-card .card-icon {
   width: 60px;
   height: 60px;
@@ -506,6 +511,10 @@ body.nav-active { overflow: hidden; }
 .service-card .card-icon ion-icon { --ionicon-stroke-width: 50px; }
 
 .service-card .card-title { margin-block: 16px 10px; }
+
+.service-card .card-text{
+  color: var(--raisin-black);
+}
 
 .service-card .btn-text {
   display: flex;
@@ -645,6 +654,9 @@ body.nav-active { overflow: hidden; }
   overflow: hidden;
   box-shadow: var(--shadow-2);
   height: 100%;
+}
+.project .container ul.grid-list li:hover {
+  box-shadow: var(--shadow-3);
 }
 
 .project-card .card-content { padding: 30px; }
@@ -1065,6 +1077,7 @@ body.nav-active { overflow: hidden; }
    */
 
   .project .grid-list { grid-template-columns: repeat(3, 1fr); }
+  
 
 
 
