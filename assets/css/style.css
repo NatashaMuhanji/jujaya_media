@@ -481,6 +481,8 @@ body.nav-active { overflow: hidden; }
 .service .section-title { margin-block-end: 50px; }
 
 .service-card {
+  height: 400px;
+  max-height: 400px;
   padding: 40px;
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
