@@ -702,6 +702,7 @@ body.nav-active { overflow: hidden; }
   background-color: var(--violet-blue-crayola);
   color: var(--white);
   border: none;
+  margin: 15px;
 }
 
 
